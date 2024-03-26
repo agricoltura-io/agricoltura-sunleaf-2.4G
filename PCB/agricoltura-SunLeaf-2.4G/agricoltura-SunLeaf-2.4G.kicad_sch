@@ -1,0 +1,538 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0ab3d8db-ce17-4d85-ae9d-788a39a657cb")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 191.77 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d89b4ff-34ba-434d-854f-431ff690173c")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 193.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dedb06f-81ec-46e7-8a6b-f68aafed5248")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c277088-8cb6-4027-9149-b77869373e98")
+	)
+	(wire
+		(pts
+			(xy 173.99 58.42) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce68ebf-8201-45c7-842c-e6252a526cbe")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f80caa6-75c4-4f4a-bb02-35f049d9dbf5")
+	)
+	(wire
+		(pts
+			(xy 193.04 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a96b0a-0d89-4551-a5e7-138fbaef341d")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 193.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4104d1d-24d7-41cb-82ec-c2611905ab42")
+	)
+	(wire
+		(pts
+			(xy 125.73 138.43) (xy 95.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c797e491-fa95-4eae-934f-ccef8b4a5b42")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84a1857-5b72-4a54-b90b-6c8dc02ebc5c")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 193.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7150eb9-a55c-4c98-bf8b-26428407d4cc")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31b427a-a95b-49d2-ac94-627dbab55ddc")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e340c012-b1e0-4c3c-b366-a9e232951d32")
+	)
+	(text "SunLeaf S1G 0.1a"
+		(exclude_from_sim no)
+		(at 115.57 31.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "511e79b1-d392-41c9-9778-40add8c08b9b")
+	)
+	(sheet
+		(at 44.45 116.84)
+		(size 50.8 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f055222")
+		(property "Sheetname" "Power Supply & Battery Charging"
+			(at 44.45 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 44.45 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 95.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e96867b-21d4-46d0-afb8-e0f3654cc844")
+		)
+		(pin "BAT_VOLT_SENSE" input
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51913290-a6a7-4247-99ab-194bb608276a")
+		)
+		(pin "BAT_SDA" input
+			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bdc6e176-d7ff-43dd-9d35-2a175235346b")
+		)
+		(pin "BAT_SCL" input
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b084881-196f-4257-b64d-d0e5c48ad82b")
+		)
+		(instances
+			(project "agricoltura-SunLeaf-2.4G"
+				(path "/0ab3d8db-ce17-4d85-ae9d-788a39a657cb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 41.91)
+		(size 64.77 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f0552da")
+		(property "Sheetname" "I2C Mux & Connections"
+			(at 191.77 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C_Interfaces.kicad_sch"
+			(at 191.77 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SENSE1_SDA" input
+			(at 191.77 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1249d8f-e1e8-44c2-b6b6-0774dc00c37f")
+		)
+		(pin "I2C_SENSE1_SCL" input
+			(at 191.77 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17588d35-4a06-4efa-9a95-cf692fb00b81")
+		)
+		(pin "I2C_MUX1_RESET" input
+			(at 191.77 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12cb1c95-2d33-4ca0-8c3b-04b74aa63c21")
+		)
+		(instances
+			(project "agricoltura-SunLeaf-2.4G"
+				(path "/0ab3d8db-ce17-4d85-ae9d-788a39a657cb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 116.84)
+		(size 63.5 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005f05538c")
+		(property "Sheetname" "UART Mux & Connections"
+			(at 193.04 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART_Interfaces.kicad_sch"
+			(at 193.04 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_SENSE1_TX" input
+			(at 193.04 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "635f34a4-d95b-4d9a-9960-3619da538782")
+		)
+		(pin "UART_SENSE1_RX" input
+			(at 193.04 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbd30b07-d4c8-4296-bb1c-ab373a39e0bc")
+		)
+		(pin "USW1_S1" input
+			(at 193.04 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24bf4e02-dcb9-4039-bdb0-107ac749ba2c")
+		)
+		(pin "USW1_S0" input
+			(at 193.04 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b32c5370-8fe6-41ea-8f23-25c14c78c6b2")
+		)
+		(pin "USW1_EN" input
+			(at 193.04 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ea2cf4f-55a5-4289-8edb-e924442323e5")
+		)
+		(instances
+			(project "agricoltura-SunLeaf-2.4G"
+				(path "/0ab3d8db-ce17-4d85-ae9d-788a39a657cb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 41.91)
+		(size 48.26 111.76)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000606f457a")
+		(property "Sheetname" "STM32 RF Module"
+			(at 125.73 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32_RF_Module.kicad_sch"
+			(at 125.73 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 125.73 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b63a8584-0c7c-43b1-8b66-3337d427cb2f")
+		)
+		(pin "I2C_SENSE1_SDA" input
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbacc951-8b56-41b4-807f-fe9f9e197ac8")
+		)
+		(pin "I2C_SENSE1_SCL" input
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76a1c323-65e9-42e7-909e-5c1d36cb5304")
+		)
+		(pin "I2C_MUX1_RESET" input
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c4a8e39-5831-4242-9d05-c49d527815cb")
+		)
+		(pin "UART_SENSE1_TX" input
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2456f88-5538-47bc-972a-3889cd1d3835")
+		)
+		(pin "UART_SENSE1_RX" input
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0c6141c-674b-4445-b33f-687a9dd7ea54")
+		)
+		(pin "USW1_S1" input
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b1177ab-7972-45c4-bed3-f73e052eff93")
+		)
+		(pin "USW1_S0" input
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7636474f-7826-479e-9994-d02461c833af")
+		)
+		(pin "USW1_EN" input
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ced397e7-94c8-4f85-8154-c6dda3fe9690")
+		)
+		(pin "BAT_SDA" input
+			(at 125.73 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ea9d80f-c254-45b0-bfde-a035048cfd62")
+		)
+		(pin "BAT_SCL" input
+			(at 125.73 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "daaf7a1c-7a81-4b37-8333-3d6b222e57d1")
+		)
+		(pin "BAT_VOLT_SENSE" input
+			(at 125.73 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a2a14ce-5768-434b-be8f-be5e96358e84")
+		)
+		(instances
+			(project "agricoltura-SunLeaf-2.4G"
+				(path "/0ab3d8db-ce17-4d85-ae9d-788a39a657cb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
